@@ -20,13 +20,15 @@ Normalization	StandardScaler	Improve clustering geometry
 Class Imbalance Fix	Subsampling	Prevent majority class dominance
 Model Evaluation	Stratified 4-Fold Cross-Validation	Fair results across splits
 
-📌 Models evaluated 100 times → Final scores = Median Accuracy + Median AUC
+📌 Models evaluated 100 times with a 75% train - 25% test → Final scores = Median Accuracy + Median AUC
+
+
 
 🔥 Correlation Analysis
 
 Heatmap used to inspect feature relationships
 
-Highlighted strong relationships among hormone indicators
+Highlighted weak relationships among  featuures -> 
 
 Guided feature importance interpretation & model focus
 
