@@ -84,13 +84,12 @@ Weak clustering structure
 
 
 
-| Step                         | Technique                                                                         | Why You Used It                                                                                            | Field Impact                                                 |
-| ---------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-                                                                        | Enable ML algorithms                                         |
-| **Normalization**            | **StandardScaler (Mean=0, Std=1)** applied to **all models**                      | Ensures **equal contribution** of differently scaled features 🤝 (Age vs hormone levels vs binary factors) | Improves gradient-based training & comparison across LR & RF |
-| **Train/Test Split**         | **75% Train / 25% Test**                                                          | Aligns with the **4-Fold (≈25%)** fold structure                                                           | Fair performance hold-out set                                |
-| **Cross-Validation**         | **Stratified 4-Fold CV — Repeated 100x**                                          | Preserves Diagnosis ratio in every split                                                                   | Clinical class consistency                                   |
-| **Class Imbalance Solution** | **Repeated balanced subsampling** (50–50 malignant/benign inside each repetition) | Prevents model bias toward benign cases                                                                    | Equitable medical risk assessment                            |
+| Step | Technique | Why You Used It | Field Impact |
+|------|-----------|----------------|--------------|
+| Normalization | StandardScaler (Mean=0, Std=1) | Ensures equal contribution of differently scaled features; improves comparisons across LR & RF | Better gradient behavior & fairer clinical indicator influence |
+| Train/Test Split | 75% Train / 25% Test | Aligns with 4-Fold CV distribution (~25% per fold); maintains unseen test set | Fair generalization estimate for real-world deployment |
+| Cross-Validation | Stratified 4-Fold CV — Repeated 100x | Preserves Diagnosis ratio in all folds; reduces variance from class imbalance | Clinically stable & reproducible model evaluation |
+| Class Imbalance Solution | Repeated balanced subsampling (50 malignant / 50 benign each repetition) | Prevents model bias toward majority benign cases | Equitable cancer-risk assessment; higher trust in malignant predictions |
 
 
 📌 Models evaluated 100 times with a 75% train - 25% test → Final scores = Median Accuracy + Median AUC
