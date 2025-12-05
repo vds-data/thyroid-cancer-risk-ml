@@ -59,6 +59,7 @@ Ensured medical-grade data quality
 (feature relevance screening, no missing/duplicate records, outlier validation on endocrine markers)
 
 Encoded categorical values & standardized continuous features for supervised learning algorithms
+
 <br>
 
 2️⃣ 🔍 Correlation Analysis for Continuous Clinical Features
@@ -84,7 +85,7 @@ Weak clustering structure
 ➡️ Confirms need for supervised ML for diagnostic prediction
 
 
-
+<br>
 
 | Step | Technique | Why You Used It | Field Impact |
 |------|-----------|----------------|--------------|
@@ -97,7 +98,7 @@ Weak clustering structure
 📌 Models evaluated 100 times with a 75% train - 25% test → Final scores = Median Accuracy + Median AUC
 
 
-
+<br>
 
 4️⃣ Feature Importance
 
@@ -116,7 +117,7 @@ Top 3 Stable Prognostic Factors:
 
 Consistent with biological expectations ✔
 
-
+<br>
 
 ✔ 5️⃣ Triad-Based Performance Evaluation
 
@@ -141,7 +142,7 @@ Results Summary
 | Random Forest       | ~0.51                | ~0.52           | Lower     |
 
 
-
+<br>
 
 
 ### 🎛 GUI Deployment
