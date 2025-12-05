@@ -34,7 +34,7 @@ Class imbalance present → addressed via subsampling
 
 
 
-###🧬 Feature Categories
+### 🧬 Feature Categories
 
 Source: Kaggle — Thyroid Cancer Risk Dataset (Chirumamilla, 2023)
 
