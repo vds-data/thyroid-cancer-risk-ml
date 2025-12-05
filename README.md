@@ -4,7 +4,7 @@ Thyroid Cancer Risk Analysis using Machine Learning: Classification, Clustering 
 This project develops a machine learning pipeline to assess thyroid cancer risk, identify critical predictive features, and support clinical decision-making through data-driven insights.
 
 
-📌 Overview
+###📌 Overview
 
 This project aims to predict thyroid cancer risk using Machine Learning techniques applied to a real-world medical dataset.
 It was developed as part of my MSc in Business Information Systems and demonstrates full-cycle data analytics, from data preprocessing and feature evaluation to model training, cross-validation, and GUI visualization.
@@ -13,7 +13,7 @@ The result is an interpretable, reproducible, and interactive analytical environ
 
 
 
-🧠 Project Objectives
+##🧠 Project Objectives
 
 Develop explainable ML models for early detection of thyroid malignancy.
 
