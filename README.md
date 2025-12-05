@@ -218,7 +218,7 @@ L1-regularised Logistic Regression used as a sparse, more interpretable model to
 
 ---
 
-### SHAP Values – Model Explainability
+### SHAP Values – Logistic Regression Explainability
 SHAP values used to explain individual predictions and the global impact of each feature on the model output.
 
 ![SHAP Values](visuals/SHAP%20Values%20on%20LR.png)
