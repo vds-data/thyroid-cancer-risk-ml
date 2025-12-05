@@ -13,7 +13,7 @@ The result is an interpretable, reproducible, and interactive analytical environ
 
 
 
-## 🧠 Project Objectives
+### 🧠 Project Objectives
 
 Develop explainable ML models for early detection of thyroid malignancy.
 
@@ -34,7 +34,7 @@ Class imbalance present → addressed via subsampling
 
 
 
-🧬 Feature Categories
+###🧬 Feature Categories
 
 Source: Kaggle — Thyroid Cancer Risk Dataset (Chirumamilla, 2023)
 
@@ -52,7 +52,7 @@ Source: Kaggle — Thyroid Cancer Risk Dataset (Chirumamilla, 2023)
 📌 Total Features Used in Modeling: 16 predictors + 1 target = 17 attributes
 
 
-🛠️ ML Workflow & Methodology
+### 🛠️ ML Workflow & Methodology
 1️⃣ Data Validation & Preprocessing
 
 Ensured medical-grade data quality
@@ -142,7 +142,7 @@ Results Summary
 
 
 
-🎛 GUI Deployment
+### 🎛 GUI Deployment
 
 A prediction interface built using Tkinter:
 
@@ -167,7 +167,7 @@ Final Conclusive Outcomes
 Purpose: Turn clinical data into interactive risk intelligence.
 
 
-🧪 Tools & Technologies
+### 🧪 Tools & Technologies
 | Category        | Tech                        |
 | --------------- | --------------------------- |
 | Languages       | Python                      |
@@ -178,7 +178,7 @@ Purpose: Turn clinical data into interactive risk intelligence.
 
 
 
-🏁 Key Outcomes
+### 🏁 Key Outcomes
 
 📍 Identified three highly stable prognostic factors
 📍 Logistic Regression proved most clinically reliable
@@ -222,8 +222,8 @@ SHAP values used to explain individual predictions and the global impact of each
 
 ![SHAP Values](visuals/SHAP%20Values%20on%20LR.png)
 
-
-🚀 Future Enhancements
+---
+### 🚀 Future Enhancements
 
 ✔ Integrate XGBoost + LightGBM
 ✔ Hyperparameter tuning & feature engineering
