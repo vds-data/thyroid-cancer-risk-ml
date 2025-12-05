@@ -202,8 +202,8 @@ This heatmap checks for linear relationships between continuous features (Age, T
 ### K-Means Clusters (PCA Projection)
 Unsupervised clustering (K-Means, k=3) on the clinical features, projected in 2D using PCA, to see whether patients naturally form low/medium/high risk groups.
 
-![K-Means Clusters](visuals/kmeans_clusters_pca.png)(visuals/kmeans_clusters_pca2.png)
-
+![K-Means Clusters](visuals/kmeans_clusters_pca.png)
+![K-Means Clusters](visuals/kmeans_clusters_pca2.png)
 ---
 
 ### Feature Importance – Random Forest
